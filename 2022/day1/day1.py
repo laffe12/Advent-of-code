@@ -1,0 +1,19 @@
+### Day 1 2022 Advent Of Code ###
+with open('input.txt') as file:
+    calories = file.readlines()
+
+sum_list = []
+calorie_sum = 0
+    
+for i in range(0,len(calories)):
+    if calories[i] == "\n":
+        sum_list.append(calorie_sum)
+        calorie_sum = 0
+        i += 1
+    else:
+        calorie_sum += int(calories[i])
+        
+sorted_list = sorted(sum_list)
+
+print(f'Answer A: {max(sum_list)}')
+print(f'Answer B: {sum(sorted_list[-3:])}')
