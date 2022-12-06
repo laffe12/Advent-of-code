@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 4, Part B. Advent Of Code 2022 ###
+
+
 with open('input.txt') as file:
     input = file.readlines()
     

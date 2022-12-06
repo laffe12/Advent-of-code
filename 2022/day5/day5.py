@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 5, Part A & B. Advent Of Code 2022 ###
+
 # Manually entering stack input
 stack = [['B', 'W', 'N'],
         ['L', 'Z', 'S', 'P', 'T', 'D', 'M', 'B'],

@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 3, Part A. Advent Of Code 2021 ###
+
 import numpy as np
 
 with open('diagnostic_input.txt') as f:

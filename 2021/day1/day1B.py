@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 1, Part B. Advent Of Code 2021 ###
+
 import numpy as np
 # Read input from file
 with open('input_depth.txt') as f:

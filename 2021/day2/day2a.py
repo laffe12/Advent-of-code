@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 2, Part A. Advent Of Code 2021 ###
+
 # Read input from file
 with open('input.txt') as f:
     pos_changes = [line.strip() for line in f]

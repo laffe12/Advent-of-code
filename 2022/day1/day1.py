@@ -1,4 +1,11 @@
-### Day 1 2022 Advent Of Code ###
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: laffe12
+"""
+
+### Day 1, Part A & B. Advent Of Code 2022 ###
+
 with open('input.txt') as file:
     calories = file.readlines()
 
